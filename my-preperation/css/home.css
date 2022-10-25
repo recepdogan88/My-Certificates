@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   body {
+    min-height: 100vh;
+    font-family: Montserrat;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    transition: .3s;
+    overflow-x: hidden;
+  }
+  a {
+    text-decoration: none;
+  }
+  .ul {
+    list-style: none;
+  }
+  
+
+.container{
+    width: 100%;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.english-list{
+    margin-left: 150px;
+}
+.english-li{
+   text-decoration: double;
+   font-family: 'Oswald', sans-serif;
+   margin-top: 5px;
+   font-weight: 600;
+   color: #021720;
+}
+.it-list{
+    margin-right: 150px;
+}
+.baslik-it{
+    margin-left: 190px;
+}
+.what{
+    margin-left: 450px;
+}
+h2{
+ font-size: 40px;
+ font-weight: 800;
+ color: #2986b1;
+ font-family: 'Roboto Slab', serif;
+}
+section{
+  margin-left: 60px;
+}
+.logo{
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.nav-link{
+  font-size: 20px;
+  color: white;
+  margin-right: 20px;
+  font-weight: 500;
+}
+.navbar-nav{
+  margin-bottom: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.navbar{
+  background-color: #2986b1;
+  height: 80px;
+  padding-top: 10px;
+}
+.logo{
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 45px;
+  text-align: center;
+  background: url(../images/back.png);
+  -webkit-background-clip:text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+@keyframes back{
+  100%{
+      background-position: 2000px 0;
+  }
+}
+.left{
+  margin-top: 15px;
+  padding: 10px;
+}
+.dropdown-menu{
+  background-color: #2986b1;
+}
+.nav-link:hover{
+  color: rgb(232, 222, 222);
+}
+.dropdown-item{
+  color: #fff;
+}
+.right{
+  padding-top: 10px;
+}
